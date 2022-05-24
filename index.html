@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="lobby" id="lobby">
+            <div class="settings" id="settings"></div>
+            <h1 class="lobby__h1">Game to play with friends </h1>
+            <p class="lobby__p">Lets play</p>
+            <div class="play" id="play">Play</div>
+           
+        </div>
+        <div class="menu" id="menu">
+           
+            <div class="skins">
+                <div class="player1__skins">
+                    <p class="player1__skins__p" id="skins1">PLayer1</p>
+                    <div class="colors">
+                        <div class="color red" id="color1Red"></div>
+                        <div class="color blue" id="color1Blue"></div>
+                        <div class="color yeelow" id="color1Yellow"></div>
+                        <div class="color black" id="color1Black"></div>
+                        <div class="color pink" id="color1Pink"></div>
+                        <div class="color orange" id="color1Orange"></div>
+                        <div class="color green" id="color1Green"></div>
+                        <div class="color grad1" id="color1Grad1"></div>
+                        <div class="color grad2" id="color1Grad2"></div>
+                    </div>
+                </div>
+                <div class="player2__skins">
+                    <p class="player2__skins__p" id="skins2">PLayer2</p>
+                    <div class="colors">
+                        <div class="color red" id="color2Red"></div>
+                        <div class="color blue" id="color2Blue"></div>
+                        <div class="color yeelow" id="color2Yellow"></div>
+                        <div class="color black" id="color2Black"></div>
+                        <div class="color pink" id="color2Pink"></div>
+                        <div class="color orange" id="color2Orange"></div>
+                        <div class="color green" id="color2Green"></div>
+                        <div class="color grad1" id="color2Grad1"></div>
+                        <div class="color grad2" id="color2Grad2"></div>
+                    </div>
+                </div>
+            </div>
+     
+            <p class="error" id="error">Нікнейми не можуть співпадати</p>
+            <div class="nicknames">
+                <div class="nick1">
+            <input type="text" class="usernick" id="usernick1" placeholder="Нікнейм"> 
+            <button class="user__check" id="userCheck1"></button>
+        </div>
+        <div class="nick2">
+            <input type="text"  class="usernick" id="usernick2" placeholder="Нікнейм">
+         
+            <button   class="user__check" id="userCheck2"></button>
+        </div>
+       
+        
+        </div>
+       
+          
+        </div>
+        
+        <div class="game" id="game">
+         <div class="scorePlace">
+             <div class="score">
+             <div class="score__container">
+                  <p class="score__player1" id="score__player1">0</p>
+                  <p class="username" id="username1">PLayer1</p>
+             </div>
+             <div class="score__container">
+                <p class="score__player2" id="score__player2">0</p>
+                <p class="username" id="username2">Player1</p>
+             </div>
+            </div>
+             <div class="exit" id="exit">Lobby</div>
+           
+         </div>
+     <div class="player1 player" id="player1"></div>
+    <div class="player2 player" id="player2"></div>
+   
+    <div class="target" id="target"></div> 
+
+    </div>
+    
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
